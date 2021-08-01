@@ -16,8 +16,12 @@ public class DemoController {
         User user = new User();
         user.setUserId(1000);
         user.setUserName("Frank");
+        // test
+        System.out.println("");
+
         return JSONUtil.toJsonStr(user);
         // test
+
 
     }
 }
